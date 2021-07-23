@@ -9,9 +9,9 @@
     <body style='margin : 0px; overflow: hidden;'>
         <a-scene embedded vr-mode-ui="enable:false" arjs="sourceType: webcam; debugUIEnabled: flase; detectionMode:mono_and_matrix;matrixCodeType: 3x3;">
             <a-assets>
-                <a-asset-item id="animated-asset" src="./assets/articuno.gltf"></a-asset-item>
+                <a-asset-item id="animated-asset" src="url(assets/articuno/scene.gltf)"></a-asset-item>
             </a-assets>
-            <a-marker type='pattern' url="./assets/pattern-qr-code.patt">
+            <a-marker type='pattern' url="assets/pattern-qr-code.patt">
                 <a-box position='0 0.5 0' color="yellow"></a-box>
             </a-marker>
             <a-marker id="animated-marker" type='pattern' url="./assets/pattern-qr-code.patt">
